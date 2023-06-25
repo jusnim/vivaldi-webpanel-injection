@@ -11,7 +11,8 @@
 
 ## How it works
 Vivaldi does us the favor of injecting two different JS in web panels right from the start:
-!()[https://raw.githubusercontent.com/jusnim/vivaldi-webpanel-injection/master/media/Vivaldi-Sources-Screenshot.png]
+
+![](https://raw.githubusercontent.com/jusnim/vivaldi-webpanel-injection/master/media/Vivaldi-Sources-Screenshot.png)
 
 These two are injected by bundle.js
 Path: .../Vivaldi/Application/.../resources/vivaldi/bundle.js
@@ -28,5 +29,12 @@ The tested version where it worked is: 6.1.3035.100
 
 ## WhatsAppCustomCSS
 Currently, I've only used JS injection for Web panels to customize Whatsapp Web, allowing you to narrow the window much further than before.
-!()[https://raw.githubusercontent.com/jusnim/vivaldi-webpanel-injection/master/media/WhatAppCustomCSS.png]
-It's also available in this repo, so feel free to use it :)
+
+It's also available in this repo, so feel free to use it :) </br>
+![](https://raw.githubusercontent.com/jusnim/vivaldi-webpanel-injection/master/media/WhatAppCustomCSS.png)
+
+
+## Legal
+ The author is not responsible for any illegal use of these programs.<br/>
+ I am not accountable for anything you get into.<br/>
+ I am not accountable for any of your actions.<br/>
