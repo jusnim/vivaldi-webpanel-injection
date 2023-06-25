@@ -1,0 +1,14 @@
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function injectedCode(){
+    await sleep( 3000 );
+    document.head.insertAdjacentHTML( 'beforeend', '<style> ._8nE1Y {flex: 0 0 !important; margin-left: 6% !important} ._3RGKj {flex: 0 0 !important; width: 15% !important; min-width: 90px;} ._1AHcd {z-index: 0 !important; width: 40px !important;} .Dvjym {z-index: 1000 !important; } ._3w5Pa {margin-bottom: 20px !important; margin-left: 6px !important; padding-bottom: 0px !important} @media screen and (max-width: 748px) {._1jJ70 {min-width:10px}} ._3gYev {height: 0 !important;} [data-testid="msg-container"]{font-size: 10px !important; translate: 0px 4px} ._11JPr {font-size: 12px !important;} .message-in {padding-right: 0 !important; padding-left: 3% !important} .message-out {padding-left: 0 !important; padding-right: 3% !important} *[data-testid="group-chat-profile-picture"] { width: 0px !important; height: 0px !important} ._8nE1Y{margin-bottom: 15px !important; position: sticky} span[data-testid="pinned2"]{filter: sepia(93%) hue-rotate(86deg) saturate(162%) brightness(120%) drop-shadow(1px 2px 2px rgb(0 0 0)) drop-shadow(2px 2px 2px rgb(0 0 0)); !important} span[data-testid="down"]{position: absolute;height: 0px !important} header[data-testid="chatlist-header"]{width: 90% !important;} ._2NU8a{width: 50vw; left:0 !important; right:0 !important; transform-origin: left top !important; transform: scale(1); opacity: 1;} ._3WByx{flex-grow: 0 !important; padding-left: 100px; !important;} span[data-testid="community-tab"] > svg, div[data-testid="menu-bar-community-tab"] {width: 0; pointer-events: none} ._3ndVb{padding:0 !important; margin:0 !important} header[data-testid="chatlist-header"]{padding-right:0 !important;} ._1s7Pa{width:0;} [data-testid="filter"] > svg {width:0 !important; pointer-event: none !important} [data-testid="chat-list-search-container"] > button > div{width:0 !important; pointer-event: none !important} [data-testid="chat-list-search-container"]{height: 0 !important;} [data-testid="chat-butterbar"]{height:0 !important} ._2QgSC {flex: 0 0px !important; width: 15% !important; min-width: 500px !important; z-index:1100 !important} ._3RGKj:has(span > div[class*="lhggkp7q"]){min-width:80% !important} .ihvf49ua   {top: -20px; width: 80% !important} .copyable-area {width:70% !important;box-shadow: 0px 0px 20px rgb(0,0,0) !important}  ._2lSWV {box-shadow: 20px 0px 0px rgb(0,10,0)} *[data-testid="confirm-popup"]{flex: 0 0 !important; position: fixed\ !important; z-index: 10000000 !important; margin-left: 10%; width: 80%; } [data-testid="confirm-popup"] > div {width: 100% !important} ._2lSWV {width: 100% !important}</style>' );
+    console.log( "injected!!!!!!!!!!!!!?" );
+}
+
+injectedCode();
+
+
+    
