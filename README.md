@@ -29,6 +29,7 @@ The tested version where it worked is: 6.1.3035.100
 
 ## WhatsAppCustomCSS
 Currently, I've only used JS injection for Web panels to customize Whatsapp Web, allowing you to narrow the window much further than before.
+Notice: WhatsApp must be displayed in the desktop version.
 
 It's also available in this repo, so feel free to use it :) <br/>
 ![](https://raw.githubusercontent.com/jusnim/vivaldi-webpanel-injection/master/media/WhatAppCustomCSS.png)
